@@ -115,3 +115,59 @@ header {
 .forgot-password:hover {
     text-decoration: underline;
 }
+
+select {
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select-term {
+    text-align: center;
+}
+
+.tile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+    justify-content: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.tile {
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    width: calc((100% / 3) - 35px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.accept-button {
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+.accept-button:hover {
+    background-color: darkgreen;
+}
+
+.decline-button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+.decline-button:hover {
+    background-color: darkred;
+}
