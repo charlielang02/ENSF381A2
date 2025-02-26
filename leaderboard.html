@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Leaderboard - LMS</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -9,9 +10,9 @@
       <h1>LMS - Learning Management System</h1>
     </header>
 
-    <div>
+    <div class="nav">
       <p>
-        <a href="index.html">Homepage</a> |
+        <a href="index.html">Homepage</a>
         <a href="course_view.html">Courses</a>
       </p>
     </div>
@@ -24,7 +25,7 @@
         cellpadding="5"
         style="text-align: center"
       >
-        <tr style="background-color: green; color: white">
+        <tr style="background-color: #4caf50; color: white">
           <th colspan="5" style="font-size: 30px" style="color: white">
             Leaderboard
           </th>
@@ -37,48 +38,90 @@
           <th>Course</th>
         </tr>
 
-        <tr style="background-color: gold">
+        <tr style="background-color: #ffd700">
           <td>1</td>
-          <td><img src="student.png" alt="Profile Pic" width="50" /></td>
+          <td>
+            <img
+              class="profile-pic"
+              src="student.png"
+              alt="Profile Pic"
+              width="50"
+            />
+          </td>
           <td>John Doe</td>
           <td>95</td>
           <td>Web Development</td>
         </tr>
 
-        <tr style="background-color: silver">
+        <tr style="background-color: #c0c0c0">
           <td rowspan="2">2</td>
-          <td><img src="student.png" alt="Profile Pic" width="50" /></td>
+          <td>
+            <img
+              class="profile-pic"
+              src="student.png"
+              alt="Profile Pic"
+              width="50"
+            />
+          </td>
           <td>Jane Smith</td>
           <td>90</td>
           <td>Data Structures</td>
         </tr>
 
-        <tr style="background-color: silver">
-          <td><img src="student.png" alt="Profile Pic" width="50" /></td>
+        <tr style="background-color: #c0c0c0">
+          <td>
+            <img
+              class="profile-pic"
+              src="student.png"
+              alt="Profile Pic"
+              width="50"
+            />
+          </td>
           <td>Emily White</td>
           <td>90</td>
           <td>Algorithms</td>
         </tr>
 
-        <tr style="background-color: #b87333">
+        <tr style="background-color: #cd7f32">
           <td>3</td>
-          <td><img src="student.png" alt="Profile Pic" width="50" /></td>
+          <td>
+            <img
+              class="profile-pic"
+              src="student.png"
+              alt="Profile Pic"
+              width="50"
+            />
+          </td>
           <td>Michael Brown</td>
           <td>85</td>
           <td>Machine Learning</td>
         </tr>
 
-        <tr style="background-color: whitesmoke">
+        <tr style="background-color: #f9f9f9">
           <td>4</td>
-          <td><img src="student.png" alt="Profile Pic" width="50" /></td>
+          <td>
+            <img
+              class="profile-pic"
+              src="student.png"
+              alt="Profile Pic"
+              width="50"
+            />
+          </td>
           <td>Sarah Johnson</td>
           <td>80</td>
           <td>Networking</td>
         </tr>
 
-        <tr style="background-color: #cccccc">
+        <tr style="background-color: #e4e2e2">
           <td>5</td>
-          <td><img src="student.png" alt="Profile Pic" width="50" /></td>
+          <td>
+            <img
+              class="profile-pic"
+              src="student.png"
+              alt="Profile Pic"
+              width="50"
+            />
+          </td>
           <td>Rob Miller</td>
           <td>75</td>
           <td>Networking</td>

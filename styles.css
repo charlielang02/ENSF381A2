@@ -217,3 +217,8 @@ select {
     background-color: darkblue;
     color: white;
 }
+
+.profile-pic {
+    border: black 2px solid;
+    border-radius: 100%;
+}
