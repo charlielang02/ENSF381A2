@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Login - LMS</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -9,31 +10,33 @@
       <h1>LMS - Learning Management System</h1>
     </header>
 
-    <div>
-      <h2>LMS Login</h2>
+    <div class="nav">
       <p>
         <a href="index.html">Homepage</a>
       </p>
-      <br />
     </div>
 
     <main>
-      <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required /><br /><br />
+      <h2 class="about-label">LMS Login</h2>
+      <form class="login-form">
+        <div class="login-form-group">
+          <label for="username">Username:</label><br /><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
 
-        <label for="password">Password:</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          required
-        /><br /><br />
-
-        <button onClick="location.href='course_view.html'">Login</button><br />
+          <label for="password">Password:</label><br /><br />
+          <input type="password" id="password" name="password" required />
+        </div>
+        <br /><br />
+        <button class="login-button" onClick="location.href='course_view.html'">
+          Login</button
+        ><br />
+        <p><a class="forgot-password" href="#">Forgot Password?</a></p>
       </form>
-
-      <p><a href="#">Forgot Password?</a></p>
     </main>
 
     <footer>

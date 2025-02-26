@@ -37,13 +37,13 @@ header {
   }
   
   main {
-    background-color: #d4d4d4;
+    background-color: whitesmoke;
     padding: 20px;
     margin: 0;
   }
   
   #about {
-    background-color: #d4d4d4;
+    background-color: whitesmoke;
     text-align: center;
     padding: 20px;
     margin: 20px auto;
@@ -52,6 +52,7 @@ header {
 
   .about-label {
     color: #004080;
+    text-align: center;
   }
 
   ul {
@@ -66,4 +67,51 @@ header {
     padding: 10px;
     text-align: center;
   }
-  
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .login-form-group {
+    width: 100%;
+    border-radius: 30px;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  input {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid darkgray;
+  }
+
+  .login-button {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+  }
+
+    .login-button:hover {
+        background-color: #006600;
+    }
+
+.forgot-password {
+    color: #004080;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
